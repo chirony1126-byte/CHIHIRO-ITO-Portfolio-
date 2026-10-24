@@ -102,7 +102,7 @@ function SesCaseStudy() {
       <section className="case-section case-section-gray">
         <div className="case-container">
           <p className="case-section-number">02 / WORKFLOW</p>
-          <h2>営業フローを一つにつなげる</h2>
+          <h2 className="workflow-title">営業フローを<br className="workflow-mobile-br" />一つにつなげる</h2>
 
           <div className="workflow">
             <div>
