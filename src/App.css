@@ -1031,15 +1031,12 @@ button {
     letter-spacing: 0.12em;
   }
 
-  .hero-section h1 {
-    max-width: 100%;
-    margin: 0;
-
-    font-size: 36px;
-    line-height: 1.25;
-    letter-spacing: -0.04em;
-  }
-
+.hero-section h1 {
+  font-size: 32px;
+  line-height: 1.35;
+  letter-spacing: -0.03em;
+  word-break: keep-all;
+}
   .hero-section h1 br {
     display: none;
   }
@@ -1068,13 +1065,12 @@ button {
     gap: 40px;
   }
 
-  .about-content h2 {
-    margin-bottom: 32px;
-
-    font-size: 30px;
-    line-height: 1.35;
-    letter-spacing: -0.035em;
-  }
+.about-content h2 {
+  font-size: 32px;
+  line-height: 1.45;
+  letter-spacing: -0.03em;
+  word-break: keep-all;
+}
 
   .about-content p {
     margin-bottom: 18px;
