@@ -915,3 +915,44 @@
     line-height: 1.4 !important;
   }
 }
+/* ========================================
+   ROLE & AI - DESKTOP / MOBILE FINAL FIX
+   ======================================== */
+
+/* PC */
+.oshi-role-title-desktop {
+  display: block !important;
+}
+
+.oshi-role-title-mobile {
+  display: none !important;
+}
+
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .oshi-role-title-desktop {
+    display: none !important;
+  }
+
+  .oshi-role-title-mobile {
+    display: block !important;
+  }
+
+  .oshi-role-title {
+    width: 100% !important;
+    max-width: none !important;
+
+    font-size: 30px !important;
+    line-height: 1.4 !important;
+    letter-spacing: -0.04em !important;
+  }
+}
+
+
+/* SMALL MOBILE */
+@media (max-width: 420px) {
+  .oshi-role-title {
+    font-size: 28px !important;
+  }
+}
