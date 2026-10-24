@@ -843,3 +843,75 @@
     line-height: 1.4 !important;
   }
 }
+/* ========================================
+   OSHI CASE STUDY - RESPONSIVE TITLE FIX
+   ======================================== */
+
+/* PC */
+.oshi-improvement-title-desktop,
+.oshi-role-title-desktop {
+  display: block;
+}
+
+.oshi-improvement-title-mobile,
+.oshi-role-title-mobile {
+  display: none;
+}
+
+
+/* ========================================
+   MOBILE
+   ======================================== */
+
+@media (max-width: 768px) {
+
+  .oshi-improvement-title-desktop,
+  .oshi-role-title-desktop {
+    display: none !important;
+  }
+
+  .oshi-improvement-title-mobile,
+  .oshi-role-title-mobile {
+    display: block !important;
+  }
+
+  /* 03 / IMPROVEMENT PROCESS */
+  .oshi-improvement-title {
+    width: 100% !important;
+    max-width: none !important;
+
+    font-size: 30px !important;
+    line-height: 1.4 !important;
+    letter-spacing: -0.04em !important;
+
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+  }
+
+  /* 04 / ROLE & AI */
+  .oshi-role-title {
+    width: 100% !important;
+    max-width: none !important;
+
+    font-size: 30px !important;
+    line-height: 1.4 !important;
+    letter-spacing: -0.04em !important;
+
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+  }
+}
+
+
+/* ========================================
+   SMALL MOBILE
+   ======================================== */
+
+@media (max-width: 420px) {
+
+  .oshi-improvement-title,
+  .oshi-role-title {
+    font-size: 28px !important;
+    line-height: 1.4 !important;
+  }
+}
