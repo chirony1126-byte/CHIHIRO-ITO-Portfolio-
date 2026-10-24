@@ -3,27 +3,65 @@ import { Routes, Route, Link } from "react-router-dom";
 import SesCaseStudy from "./pages/SesCaseStudy";
 import OshiCaseStudy from "./pages/OshiCaseStudy";
 import RetryCaseStudy from "./pages/RetryCaseStudy";
+import { useState } from "react";
 
 function Home() {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <>
       {/* HEADER */}
       <header className="header">
-       <a href="/" className="site-logo">
-        <img
-          src="/images/logo.png"
-         alt="CHIHIRO ITO portfolio"
-        />
-      </a>
+        <a href="/" className="site-logo">
+         <img
+           src="/images/logo.png"
+           alt="CHIHIRO ITO portfolio"
+         />
 
-        <nav>
+          <div className="logo-text">
+            <span className="logo-name">CHIHIRO ITO</span>
+            <span className="logo-portfolio">PORTFOLIO</span>
+          </div>
+        </a>
+
+        {/* PC NAV */}
+        <nav className="desktop-nav">
           <a href="#about">ABOUT</a>
           <a href="#projects">PROJECTS</a>
-          <a href="#skills">SKILLS</a>
+         <a href="#skills">SKILLS</a>
           <a href="#contact">CONTACT</a>
         </nav>
-      </header>
 
+        {/* MOBILE MENU BUTTON */}
+        <button
+          className={`menu-button ${menuOpen ? "open" : ""}`}
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="メニュー"
+          aria-expanded={menuOpen}
+          >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        {/* MOBILE MENU */}
+        <div className={`mobile-menu ${menuOpen ? "open" : ""}`}>
+          <a href="#about" onClick={() => setMenuOpen(false)}>
+             ABOUT
+          </a>
+
+          <a href="#projects" onClick={() => setMenuOpen(false)}>
+            PROJECTS
+          </a>
+
+          <a href="#skills" onClick={() => setMenuOpen(false)}>
+            SKILLS
+         </a>
+
+          <a href="#contact" onClick={() => setMenuOpen(false)}>
+            CONTACT
+          </a>
+        </div>
+      </header> 
       <main id="top">
         {/* HERO */}
         <section className="hero-section">
@@ -282,8 +320,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/ses-case-study" element={<SesCaseStudy />} />
       <Route path="/oshi-case-study" element={<OshiCaseStudy />} />
-      <Route　path="/retry-case-study"　element={<RetryCaseStudy />}
-/>
+      <Route path="/retry-case-study" element={<RetryCaseStudy />} />
     </Routes>
   );
 }
