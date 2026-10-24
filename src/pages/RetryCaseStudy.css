@@ -583,3 +583,82 @@
     font-size: 14px;
   }
 }
+/* ========================================
+   RETRY CASE STUDY - TITLE RESPONSIVE FIX
+   ======================================== */
+
+/* -------------------------
+   DESKTOP
+   ------------------------- */
+
+.retry-overview-title-desktop,
+.retry-development-title-desktop {
+  display: block !important;
+}
+
+.retry-overview-title-mobile,
+.retry-development-title-mobile {
+  display: none !important;
+}
+
+
+/* ========================================
+   MOBILE
+   ======================================== */
+
+@media (max-width: 768px) {
+
+  /* PC版見出しを非表示 */
+  .retry-overview-title-desktop,
+  .retry-development-title-desktop {
+    display: none !important;
+  }
+
+  /* モバイル版見出しを表示 */
+  .retry-overview-title-mobile,
+  .retry-development-title-mobile {
+    display: block !important;
+  }
+
+
+  /* 01 / OVERVIEW */
+  .retry-overview-title {
+    width: 100% !important;
+    max-width: none !important;
+
+    font-size: 30px !important;
+    line-height: 1.4 !important;
+    letter-spacing: -0.04em !important;
+
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+  }
+
+
+  /* 02 / DEVELOPMENT */
+  .retry-development-title {
+    width: 100% !important;
+    max-width: none !important;
+
+    font-size: 30px !important;
+    line-height: 1.4 !important;
+    letter-spacing: -0.04em !important;
+
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+  }
+}
+
+
+/* ========================================
+   SMALL MOBILE
+   ======================================== */
+
+@media (max-width: 420px) {
+
+  .retry-overview-title,
+  .retry-development-title {
+    font-size: 28px !important;
+    line-height: 1.4 !important;
+  }
+}

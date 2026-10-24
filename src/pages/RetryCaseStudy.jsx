@@ -66,10 +66,22 @@ function RetryCaseStudy() {
         </div>
 
         <div className="retry-section-content">
-          <h2>
-            待ち続ける作業を、
-            <br />
-            自動化する
+          <h2 className="retry-overview-title">
+
+            {/* PC */}
+            <span className="retry-overview-title-desktop">
+              待ち続ける作業を、
+              <br />
+              自動化する
+            </span>
+
+            {/* MOBILE */}
+            <span className="retry-overview-title-mobile">
+              待ち続ける作業を、
+              <br />
+              自動化する
+            </span>
+
           </h2>
 
           <p>
@@ -94,10 +106,22 @@ function RetryCaseStudy() {
         </div>
 
         <div className="retry-section-content">
-          <h2>
-            Pythonの試作から、
-            <br />
-            Chrome拡張へ
+          <h2 className="retry-development-title">
+
+            {/* PC */}
+            <span className="retry-development-title-desktop">
+              Pythonの試作から、
+              <br />
+              Chrome拡張へ
+            </span>
+
+            {/* MOBILE */}
+            <span className="retry-development-title-mobile">
+              Pythonの試作から、
+              <br />
+              Chrome拡張へ
+            </span>
+
           </h2>
 
           <div className="retry-flow">
@@ -195,117 +219,125 @@ function RetryCaseStudy() {
 
         </div>
       </section>
+
+
       {/* 04 ROLE & AI */}
-<section className="retry-role-section">
-  <div className="retry-role-label">
-    <span>04 / ROLE &amp; AI</span>
-  </div>
+      <section className="retry-role-section">
+        <div className="retry-role-label">
+          <span>04 / ROLE &amp; AI</span>
+        </div>
 
-  <div className="retry-role-heading">
-    <h2 className="retry-role-title">
-      <span className="retry-role-title-desktop">
-        課題を整理し、
-        <br />
-        AIと一緒に実装へ
-      </span>
+        <div className="retry-role-heading">
+          <h2 className="retry-role-title">
 
-      <span className="retry-role-title-mobile">
-        課題を整理し、
-        <br />
-        AIと一緒に
-        <br />
-        実装へ
-      </span>
-    </h2>
-  </div>
+            <span className="retry-role-title-desktop">
+              課題を整理し、
+              <br />
+              AIと一緒に実装へ
+            </span>
 
-  <div className="retry-role-grid">
-    <div className="retry-role-item">
-      <p className="retry-role-item-label">MY ROLE</p>
+            <span className="retry-role-title-mobile">
+              課題を整理し、
+              <br />
+              AIと一緒に
+              <br />
+              実装へ
+            </span>
 
-      <h3>自分で担当したこと</h3>
+          </h2>
+        </div>
 
-      <p>
-        Webサイトを何度も手動で確認する手間に着目し、
-        自動化するために必要な機能を整理しました。
-      </p>
+        <div className="retry-role-grid">
 
-      <p>
-        確認間隔、成功ワード、最大試行回数などの要件を決め、
-        Pythonでの試作からChrome拡張として使える形にするまで、
-        動作確認と改善を行いました。
-      </p>
-    </div>
+          <div className="retry-role-item">
+            <p className="retry-role-item-label">MY ROLE</p>
 
-    <div className="retry-role-item">
-      <p className="retry-role-item-label">AI SUPPORT</p>
+            <h3>自分で担当したこと</h3>
 
-      <h3>AIを活用したこと</h3>
+            <p>
+              Webサイトを何度も手動で確認する手間に着目し、
+              自動化するために必要な機能を整理しました。
+            </p>
 
-      <p>
-        Python・JavaScript・Chrome Extension・Flaskの実装や、
-        エラー原因の切り分け、コード改善などで
-        AIを開発支援として活用しました。
-      </p>
+            <p>
+              確認間隔、成功ワード、最大試行回数などの要件を決め、
+              Pythonでの試作からChrome拡張として使える形にするまで、
+              動作確認と改善を行いました。
+            </p>
+          </div>
 
-      <p>
-        特に、Chrome拡張とローカルのFlask APIを連携する部分や、
-        ブラウザ上での動作確認・デバッグを進める際に活用しました。
-      </p>
-    </div>
-  </div>
-</section>
+          <div className="retry-role-item">
+            <p className="retry-role-item-label">AI SUPPORT</p>
+
+            <h3>AIを活用したこと</h3>
+
+            <p>
+              Python・JavaScript・Chrome Extension・Flaskの実装や、
+              エラー原因の切り分け、コード改善などで
+              AIを開発支援として活用しました。
+            </p>
+
+            <p>
+              特に、Chrome拡張とローカルのFlask APIを連携する部分や、
+              ブラウザ上での動作確認・デバッグを進める際に活用しました。
+            </p>
+          </div>
+
+        </div>
+      </section>
 
 
-{/* 05 RESULT */}
-<section className="retry-result-section">
-  <div className="retry-result-label">
-    <span>05 / RESULT</span>
-  </div>
+      {/* 05 RESULT */}
+      <section className="retry-result-section">
+        <div className="retry-result-label">
+          <span>05 / RESULT</span>
+        </div>
 
-  <div className="retry-result-content">
-    <h2 className="retry-result-title">
-      <span className="retry-result-title-desktop">
-        小さな不便を、
-        <br />
-        動く仕組みに変える
-      </span>
+        <div className="retry-result-content">
+          <h2 className="retry-result-title">
 
-      <span className="retry-result-title-mobile">
-        小さな不便を、
-        <br />
-        動く仕組みに
-        <br />
-        変える
-      </span>
-    </h2>
+            <span className="retry-result-title-desktop">
+              小さな不便を、
+              <br />
+              動く仕組みに変える
+            </span>
 
-    <div className="retry-result-text">
-      <p>
-        最初はPythonによるシンプルな試作からスタートし、
-        実際の利用シーンを考えながらChrome拡張へ発展させました。
-      </p>
+            <span className="retry-result-title-mobile">
+              小さな不便を、
+              <br />
+              動く仕組みに
+              <br />
+              変える
+            </span>
 
-      <p>
-        「ページを確認する」という繰り返し作業を、
-        条件設定・自動確認・成功検知・通知まで
-        一つの流れとして仕組み化しました。
-      </p>
+          </h2>
 
-      <p>
-        身近な不便を見つけ、
-        必要な機能を整理し、
-        小さく試してから使いやすい形へ発展させたプロジェクトです。
-      </p>
-    </div>
-  </div>
+          <div className="retry-result-text">
+            <p>
+              最初はPythonによるシンプルな試作からスタートし、
+              実際の利用シーンを考えながらChrome拡張へ発展させました。
+            </p>
 
-  <div className="retry-result-footer">
-    <a href="/#projects" className="retry-back-link">
-      ← BACK TO PROJECTS
-    </a>
-  </div>
-</section>
+            <p>
+              「ページを確認する」という繰り返し作業を、
+              条件設定・自動確認・成功検知・通知まで
+              一つの流れとして仕組み化しました。
+            </p>
+
+            <p>
+              身近な不便を見つけ、
+              必要な機能を整理し、
+              小さく試してから使いやすい形へ発展させたプロジェクトです。
+            </p>
+          </div>
+        </div>
+
+        <div className="retry-result-footer">
+          <a href="/#projects" className="retry-back-link">
+            ← BACK TO PROJECTS
+          </a>
+        </div>
+      </section>
 
     </main>
   );
