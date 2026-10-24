@@ -1733,3 +1733,144 @@ button {
     font-size: 13px !important;
   }
 }
+/* ========================================
+   MOBILE HAMBURGER MENU FIX
+   ======================================== */
+
+@media (max-width: 768px) {
+
+  /* ヘッダー */
+  .header {
+    position: relative !important;
+    z-index: 1000 !important;
+  }
+
+  /* ハンバーガーボタン本体 */
+  .menu-button {
+    display: flex !important;
+    position: absolute !important;
+
+    top: 28px !important;
+    right: 24px !important;
+
+    width: 48px !important;
+    height: 48px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    gap: 7px !important;
+
+    border: none !important;
+    border-radius: 0 !important;
+    outline: none !important;
+
+    background: transparent !important;
+    box-shadow: none !important;
+
+    cursor: pointer !important;
+
+    z-index: 7000 !important;
+  }
+
+  /* 3本線 */
+  .menu-button span {
+    display: block !important;
+
+    width: 32px !important;
+    height: 3px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    background: #111 !important;
+
+    border: none !important;
+    border-radius: 0 !important;
+
+    transform-origin: center !important;
+
+    transition:
+      transform 0.3s ease,
+      opacity 0.2s ease !important;
+  }
+
+  /* =========================
+     ☰ → ×
+     ========================= */
+
+  .menu-button.open span:nth-child(1) {
+    transform: translateY(10px) rotate(45deg) !important;
+  }
+
+  .menu-button.open span:nth-child(2) {
+    opacity: 0 !important;
+  }
+
+  .menu-button.open span:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg) !important;
+  }
+
+  /* =========================
+     FULL SCREEN MENU
+     ========================= */
+
+  .mobile-menu {
+    position: fixed !important;
+    inset: 0 !important;
+
+    width: 100% !important;
+    height: 100dvh !important;
+
+    padding: 160px 40px 60px !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+
+    gap: 40px !important;
+
+    background: #f7f7f5 !important;
+
+    z-index: 6000 !important;
+
+    transform: translateX(100%) !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+
+    transition:
+      transform 0.3s ease,
+      opacity 0.2s ease,
+      visibility 0.3s ease !important;
+  }
+
+  /* メニューOPEN */
+  .mobile-menu.open {
+    transform: translateX(0) !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+  }
+
+  /* メニュー文字 */
+  .mobile-menu a {
+    display: block !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    color: #111 !important;
+
+    font-size: 30px !important;
+    font-weight: 700 !important;
+    line-height: 1.2 !important;
+    letter-spacing: 0.06em !important;
+
+    text-decoration: none !important;
+  }
+}
