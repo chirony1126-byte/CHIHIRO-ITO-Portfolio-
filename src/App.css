@@ -1874,3 +1874,73 @@ button {
     text-decoration: none !important;
   }
 }
+/* ========================================
+   DESKTOP / MOBILE MENU VISIBILITY FIX
+   ======================================== */
+
+/* PCではモバイルメニューを完全に非表示 */
+.mobile-menu {
+  display: none;
+}
+
+/* PCではハンバーガーも非表示 */
+.menu-button {
+  display: none;
+}
+
+
+/* ========================================
+   MOBILE ONLY
+   ======================================== */
+
+@media (max-width: 768px) {
+
+  /* PCナビを消す */
+  .desktop-nav {
+    display: none !important;
+  }
+
+  /* ハンバーガーを表示 */
+  .menu-button {
+    display: flex !important;
+  }
+
+  /* モバイルメニューを使用可能にする */
+  .mobile-menu {
+    display: flex !important;
+
+    position: fixed !important;
+    inset: 0 !important;
+
+    width: 100% !important;
+    height: 100dvh !important;
+
+    padding: 160px 40px 60px !important;
+
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 40px !important;
+
+    background: #f7f7f5 !important;
+
+    z-index: 6000 !important;
+
+    transform: translateX(100%) !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+
+    transition:
+      transform 0.3s ease,
+      opacity 0.2s ease,
+      visibility 0.3s ease !important;
+  }
+
+  /* OPEN */
+  .mobile-menu.open {
+    transform: translateX(0) !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+  }
+}
