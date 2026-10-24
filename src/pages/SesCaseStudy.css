@@ -400,3 +400,17 @@
     font-size: 19px !important;
   }
 }
+/* WORKFLOW見出しのスマホ改行調整 */
+@media (max-width: 768px) {
+  .case-study .case-section h2 {
+    font-size: 30px !important;
+    line-height: 1.4 !important;
+    letter-spacing: -0.04em !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .case-study .case-section h2 {
+    font-size: 28px !important;
+  }
+}
