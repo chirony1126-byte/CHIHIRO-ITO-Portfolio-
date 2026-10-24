@@ -770,3 +770,76 @@
     letter-spacing: -0.04em;
   }
 }
+/* ========================================
+   OSHI CASE STUDY - MOBILE TITLES
+   ======================================== */
+
+/* PCでは追加改行を無効 */
+.oshi-mobile-br {
+  display: none;
+}
+
+
+/* ========================================
+   MOBILE
+   ======================================== */
+
+@media (max-width: 768px) {
+
+  /* スマホだけ指定位置で改行 */
+  .oshi-mobile-br {
+    display: block;
+  }
+
+
+  /* -------------------------
+     IMPROVEMENT PROCESS
+     ------------------------- */
+
+  .case-study .oshi-improvement-title {
+    width: 100% !important;
+    max-width: none !important;
+
+    margin: 0 !important;
+
+    font-size: 30px !important;
+    line-height: 1.4 !important;
+    letter-spacing: -0.04em !important;
+
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+  }
+
+
+  /* -------------------------
+     ROLE & AI
+     ------------------------- */
+
+  .case-study .oshi-role-title {
+    width: 100% !important;
+    max-width: none !important;
+
+    margin: 0 !important;
+
+    font-size: 30px !important;
+    line-height: 1.4 !important;
+    letter-spacing: -0.04em !important;
+
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+  }
+}
+
+
+/* ========================================
+   SMALL MOBILE
+   ======================================== */
+
+@media (max-width: 420px) {
+
+  .case-study .oshi-improvement-title,
+  .case-study .oshi-role-title {
+    font-size: 28px !important;
+    line-height: 1.4 !important;
+  }
+}

@@ -223,11 +223,7 @@ function OshiCaseStudy() {
   <div className="oshi-improvement">
     <p className="oshi-improvement-label">IMPROVEMENT PROCESS</p>
 
-    <h3>
-      全パターンを検証し、
-      <br />
-      診断ロジックの偏りを発見
-    </h3>
+   <h3 className="oshi-improvement-title">全パターンを検証し、<br className="oshi-mobile-br" />診断ロジックの偏りを発見</h3>
 
     <p>
       655,360通りの回答パターンをシミュレーションした結果、
@@ -258,13 +254,7 @@ function OshiCaseStudy() {
             設計・検証・改善まで
         </span>
 
-        <span className="oshi-role-title-mobile">
-            AIを活用しながら、
-            <br />
-            設計・検証・
-            <br />
-            改善まで
-        </span>
+        <h2 className="oshi-role-title">AIを活用しながら、<br className="oshi-mobile-br" />設計・検証・改善まで</h2>
     </h2>
   </div>
 
