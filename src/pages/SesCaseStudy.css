@@ -127,3 +127,276 @@
     letter-spacing: -0.04em;
   }
 }
+/* ========================================
+   SES CASE STUDY - MOBILE FIX
+   ======================================== */
+
+@media (max-width: 768px) {
+
+  /* -------------------------
+     CASE STUDY 共通横幅
+     ------------------------- */
+
+  .case-study .case-container {
+    width: calc(100% - 40px) !important;
+    max-width: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+
+  /* -------------------------
+     各セクション
+     ------------------------- */
+
+  .case-study .case-section {
+    padding: 72px 0 !important;
+  }
+
+  .case-study .case-section-number {
+    margin: 0 0 28px !important;
+
+    font-size: 11px !important;
+    line-height: 1.4 !important;
+    font-weight: 700 !important;
+
+    letter-spacing: 0.12em !important;
+  }
+
+
+  /* -------------------------
+     2カラム → 1カラム
+     ------------------------- */
+
+  .case-study .case-two-column,
+  .case-study .case-section-dark .case-two-column,
+  .case-study
+    .case-section:not(.case-section-dark)
+    .case-two-column {
+
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+
+    gap: 36px !important;
+  }
+
+
+  /* -------------------------
+     セクション大見出し
+     ------------------------- */
+
+  .case-study .case-section h2,
+  .case-study .case-section-dark h2,
+  .case-study
+    .case-section:not(.case-section-dark)
+    .case-two-column h2 {
+
+    width: 100% !important;
+    max-width: none !important;
+
+    margin: 0 !important;
+
+    font-size: 32px !important;
+    line-height: 1.35 !important;
+
+    letter-spacing: -0.04em !important;
+
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+  }
+
+
+  /* -------------------------
+     本文
+     ------------------------- */
+
+  .case-study .case-body {
+    width: 100% !important;
+    max-width: none !important;
+  }
+
+  .case-study .case-body p {
+    margin: 0 0 24px !important;
+
+    font-size: 14px !important;
+    line-height: 1.9 !important;
+
+    letter-spacing: 0 !important;
+
+    color: #555 !important;
+  }
+
+
+  /* -------------------------
+     小見出し
+     ------------------------- */
+
+  .case-study .case-body h3 {
+    margin: 0 0 14px !important;
+
+    font-size: 20px !important;
+    line-height: 1.45 !important;
+
+    letter-spacing: -0.02em !important;
+  }
+
+
+  /* -------------------------
+     WORKFLOW
+     ------------------------- */
+
+  .case-study .workflow {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+
+    width: 100% !important;
+
+    margin-top: 44px !important;
+
+    border-top: 1px solid #bbb !important;
+    border-bottom: 1px solid #bbb !important;
+  }
+
+  .case-study .workflow div {
+    min-height: 0 !important;
+
+    padding: 24px 0 !important;
+
+    border-right: none !important;
+    border-bottom: 1px solid #bbb !important;
+  }
+
+  .case-study .workflow div:last-child {
+    border-bottom: none !important;
+  }
+
+  .case-study .workflow span {
+    display: block !important;
+
+    margin: 0 0 12px !important;
+
+    font-size: 11px !important;
+
+    color: #777 !important;
+  }
+
+  .case-study .workflow strong {
+    display: block !important;
+
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+  }
+
+
+  /* -------------------------
+     TECHNICAL HIGHLIGHTS
+     ------------------------- */
+
+  .case-study .highlight-grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+
+    margin-top: 44px !important;
+  }
+
+  .case-study .highlight-grid article {
+    min-height: 0 !important;
+
+    padding: 28px 22px !important;
+  }
+
+  .case-study .highlight-grid span {
+    margin-bottom: 24px !important;
+  }
+
+  .case-study .highlight-grid h3 {
+    font-size: 20px !important;
+    line-height: 1.45 !important;
+  }
+
+  .case-study .highlight-grid p {
+    font-size: 14px !important;
+    line-height: 1.9 !important;
+  }
+
+
+  /* -------------------------
+     ROLE & AI
+     ------------------------- */
+
+  .case-study .case-section-dark {
+    padding: 72px 0 !important;
+  }
+
+  .case-study .case-section-dark h2 {
+    font-size: 32px !important;
+    line-height: 1.35 !important;
+
+    color: #fff !important;
+  }
+
+  .case-study .case-section-dark .case-body p {
+    color: #aaa !important;
+  }
+
+  .case-study .case-section-dark .case-body h3 {
+    color: #fff !important;
+  }
+
+
+  /* -------------------------
+     RESULT
+     ------------------------- */
+
+  .case-study .case-section:last-of-type h2 {
+    font-size: 32px !important;
+    line-height: 1.35 !important;
+
+    width: 100% !important;
+    max-width: none !important;
+  }
+
+
+  /* -------------------------
+     FOOTER
+     ------------------------- */
+
+  .case-study .case-footer {
+    padding: 60px 0 !important;
+  }
+
+  .case-study .case-footer .button {
+    width: auto !important;
+
+    padding: 18px 22px !important;
+
+    font-size: 11px !important;
+  }
+}
+
+
+/* ========================================
+   SES CASE STUDY - SMALL MOBILE
+   ======================================== */
+
+@media (max-width: 420px) {
+
+  .case-study .case-section h2,
+  .case-study .case-section-dark h2,
+  .case-study
+    .case-section:not(.case-section-dark)
+    .case-two-column h2,
+  .case-study .case-section:last-of-type h2 {
+
+    font-size: 29px !important;
+    line-height: 1.4 !important;
+  }
+
+  .case-study .case-body p {
+    font-size: 14px !important;
+  }
+
+  .case-study .case-body h3 {
+    font-size: 19px !important;
+  }
+}
