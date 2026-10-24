@@ -1,0 +1,772 @@
+.oshi-case {
+  background: #f7f7f5;
+  color: #111;
+  min-height: 100vh;
+}
+
+.oshi-back-wrap {
+  padding: 48px 5%;
+}
+
+.oshi-back {
+  color: #111;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.oshi-hero {
+  padding: 60px 5% 100px;
+}
+
+.oshi-number {
+  font-size: clamp(120px, 18vw, 280px);
+  line-height: 0.8;
+  font-weight: 800;
+  letter-spacing: -0.08em;
+  margin-bottom: 100px;
+}
+
+.oshi-label {
+  margin-bottom: 24px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: #777;
+}
+
+.oshi-hero h1 {
+  margin: 0;
+  font-size: clamp(52px, 7vw, 110px);
+  line-height: 1.05;
+  letter-spacing: -0.06em;
+}
+
+.oshi-lead {
+  max-width: 850px;
+  margin: 48px 0 80px;
+  font-size: 18px;
+  line-height: 2;
+  color: #555;
+}
+
+.oshi-meta {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.oshi-meta > div {
+  padding: 32px 0;
+}
+
+.oshi-meta span {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: #777;
+}
+
+.oshi-meta strong {
+  font-size: 16px;
+}
+
+/* =========================
+   LIVE APP
+========================= */
+
+.oshi-live {
+  padding: 0 5% 120px;
+  text-align: center;
+}
+
+.oshi-live-preview {
+  width: min(100%, 520px);
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  overflow: hidden;
+}
+
+.oshi-live-preview img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.oshi-live-note {
+  margin: 28px auto 24px;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #777;
+}
+
+.oshi-live-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 16px 24px;
+
+  background: #111;
+  color: #fff;
+  text-decoration: none;
+
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+
+  transition: opacity 0.2s ease;
+}
+
+.oshi-live-button:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .oshi-live {
+    padding: 0 20px 80px;
+  }
+
+  .oshi-live-preview {
+    width: 100%;
+  }
+
+  .oshi-live-note {
+    margin: 20px auto 18px;
+    font-size: 13px;
+  }
+
+  .oshi-live-button {
+    padding: 14px 20px;
+    font-size: 11px;
+  }
+}
+/* =========================
+   CASE STUDY SECTIONS
+========================= */
+
+.oshi-section {
+  padding: 120px 5%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 80px;
+  border-top: 1px solid #ccc;
+}
+
+.oshi-section-label span,
+.oshi-data-section > .oshi-section-label span {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: #777;
+}
+
+.oshi-section-content h2,
+.oshi-data-heading h2 {
+  margin: 0 0 48px;
+  font-size: clamp(42px, 5vw, 76px);
+  line-height: 1.15;
+  letter-spacing: -0.05em;
+}
+
+.oshi-section-content > p {
+  max-width: 780px;
+  font-size: 17px;
+  line-height: 2;
+  color: #555;
+}
+
+
+/* SYSTEM */
+
+.oshi-flow {
+  margin-top: 72px;
+  display: flex;
+  align-items: stretch;
+}
+
+.oshi-flow-item {
+  flex: 1;
+  padding: 28px 20px;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+}
+
+.oshi-flow-item span {
+  display: block;
+  margin-bottom: 32px;
+  font-size: 12px;
+  color: #888;
+}
+
+.oshi-flow-item strong {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.oshi-flow-item p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #777;
+}
+
+.oshi-flow-arrow {
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  font-size: 18px;
+}
+
+
+/* DATA */
+
+.oshi-data-section {
+  padding: 120px 5%;
+  border-top: 1px solid #ccc;
+}
+
+.oshi-data-heading {
+  max-width: 1000px;
+  margin: 80px 0;
+}
+
+.oshi-data-heading p {
+  max-width: 760px;
+  font-size: 17px;
+  line-height: 2;
+  color: #555;
+}
+
+.oshi-data-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+}
+
+.oshi-data-stat {
+  padding: 56px 24px;
+  border-right: 1px solid #aaa;
+}
+
+.oshi-data-stat:last-child {
+  border-right: none;
+}
+
+.oshi-data-stat strong {
+  display: block;
+  font-size: clamp(54px, 6vw, 96px);
+  line-height: 1;
+  letter-spacing: -0.06em;
+}
+
+.oshi-data-stat span {
+  display: block;
+  margin-top: 18px;
+  font-size: 13px;
+  color: #777;
+}
+
+.oshi-improvement {
+  max-width: 900px;
+  margin: 120px 0 0 auto;
+}
+
+.oshi-improvement-label {
+  margin-bottom: 24px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: #777;
+}
+
+.oshi-improvement h3 {
+  margin: 0 0 40px;
+  font-size: clamp(36px, 4vw, 64px);
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+}
+
+.oshi-improvement > p:not(.oshi-improvement-label) {
+  font-size: 16px;
+  line-height: 2;
+  color: #555;
+}
+
+
+/* =========================
+   CASE STUDY MOBILE
+========================= */
+
+@media (max-width: 768px) {
+  .oshi-section {
+    padding: 80px 20px;
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .oshi-section-content h2,
+  .oshi-data-heading h2 {
+    margin-bottom: 32px;
+    font-size: 38px;
+    line-height: 1.25;
+  }
+
+  .oshi-section-content > p,
+  .oshi-data-heading p {
+    font-size: 15px;
+    line-height: 1.9;
+  }
+
+  .desktop-br {
+    display: none;
+  }
+
+  .oshi-flow {
+    margin-top: 48px;
+    flex-direction: column;
+  }
+
+  .oshi-flow-item {
+    padding: 24px 0;
+  }
+
+  .oshi-flow-item span {
+    margin-bottom: 16px;
+  }
+
+  .oshi-flow-arrow {
+    padding: 10px 0;
+    transform: rotate(90deg);
+    align-self: flex-start;
+  }
+
+  .oshi-data-section {
+    padding: 80px 20px;
+  }
+
+  .oshi-data-heading {
+    margin: 48px 0 56px;
+  }
+
+  .oshi-data-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .oshi-data-stat {
+    padding: 36px 0;
+    border-right: none;
+    border-bottom: 1px solid #aaa;
+  }
+
+  .oshi-data-stat:last-child {
+    border-bottom: none;
+  }
+
+  .oshi-data-stat strong {
+    font-size: 58px;
+  }
+
+  .oshi-improvement {
+    margin-top: 80px;
+  }
+
+  .oshi-improvement h3 {
+    font-size: 36px;
+    line-height: 1.25;
+  }
+
+  .oshi-improvement > p:not(.oshi-improvement-label) {
+    font-size: 15px;
+    line-height: 1.9;
+  }
+}
+.oshi-system .oshi-section-content h2 {
+  font-size: clamp(40px, 4.2vw, 68px);
+}
+/* =========================
+   ROLE & AI
+========================= */
+
+.oshi-role-section {
+  padding: 120px 5%;
+  background: #111;
+  color: #fff;
+}
+
+.oshi-role-label span {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: #888;
+}
+
+.oshi-role-heading {
+  margin: 80px 0 100px;
+}
+
+.oshi-role-heading h2 {
+  margin: 0;
+  font-size: clamp(48px, 6vw, 88px);
+  line-height: 1.12;
+  letter-spacing: -0.05em;
+}
+
+.oshi-role-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 80px;
+  border-top: 1px solid #444;
+}
+
+.oshi-role-item {
+  padding-top: 48px;
+}
+
+.oshi-role-item-label {
+  margin: 0 0 24px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: #777;
+}
+
+.oshi-role-item h3 {
+  margin: 0 0 32px;
+  font-size: 28px;
+}
+
+.oshi-role-item > p:not(.oshi-role-item-label) {
+  max-width: 620px;
+  font-size: 16px;
+  line-height: 2;
+  color: #aaa;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+  .oshi-role-section {
+    padding: 80px 20px;
+  }
+
+  .oshi-role-heading {
+    margin: 48px 0 64px;
+  }
+
+  .oshi-role-heading h2 {
+    font-size: 38px;
+    line-height: 1.3;
+  }
+
+  .oshi-role-grid {
+    grid-template-columns: 1fr;
+    gap: 56px;
+  }
+
+  .oshi-role-item {
+    padding-top: 32px;
+  }
+
+  .oshi-role-item h3 {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+
+  .oshi-role-item > p:not(.oshi-role-item-label) {
+    font-size: 15px;
+    line-height: 1.9;
+  }
+}
+/* =========================
+   RESULT
+========================= */
+
+.oshi-result-section {
+  padding: 120px 5% 80px;
+  border-top: 1px solid #ccc;
+}
+
+.oshi-result-label span {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: #777;
+}
+
+.oshi-result-content {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 100px;
+  align-items: start;
+}
+
+.oshi-result-title {
+  margin: 0;
+  font-size: clamp(48px, 5vw, 76px);
+  line-height: 1.15;
+  letter-spacing: -0.05em;
+}
+
+.oshi-result-title-mobile {
+  display: none;
+}
+
+.oshi-result-text {
+  padding-top: 10px;
+}
+
+.oshi-result-text p {
+  margin: 0 0 28px;
+  font-size: 16px;
+  line-height: 2;
+  color: #555;
+}
+
+.oshi-result-footer {
+  margin-top: 120px;
+  padding-top: 32px;
+  border-top: 1px solid #ccc;
+}
+
+.oshi-back-link {
+  color: #111;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.oshi-back-link:hover {
+  opacity: 0.5;
+}
+
+
+/* RESULT MOBILE */
+
+@media (max-width: 768px) {
+  .oshi-result-section {
+    padding: 80px 20px 48px;
+  }
+
+  .oshi-result-content {
+    margin-top: 48px;
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .oshi-result-title-desktop {
+    display: none;
+  }
+
+  .oshi-result-title-mobile {
+    display: block;
+  }
+
+  .oshi-result-title {
+    font-size: 38px;
+    line-height: 1.3;
+    letter-spacing: -0.04em;
+  }
+
+  .oshi-result-text {
+    padding-top: 0;
+  }
+
+  .oshi-result-text p {
+    font-size: 15px;
+    line-height: 1.9;
+  }
+
+  .oshi-result-footer {
+    margin-top: 72px;
+  }
+}
+.oshi-result-title {
+  margin: 0;
+  font-size: clamp(42px, 4vw, 64px);
+  line-height: 1.2;
+  letter-spacing: -0.05em;
+}
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+  .oshi-back-wrap {
+    padding: 28px 20px;
+  }
+
+  .oshi-hero {
+    padding: 40px 20px 72px;
+  }
+
+  .oshi-number {
+    font-size: 120px;
+    margin-bottom: 72px;
+  }
+
+  .oshi-hero h1 {
+    font-size: 46px;
+    line-height: 1.12;
+  }
+
+  .oshi-lead {
+    margin: 32px 0 56px;
+    font-size: 15px;
+    line-height: 1.9;
+  }
+
+  .oshi-lead br {
+    display: none;
+  }
+
+  .oshi-meta {
+    grid-template-columns: 1fr;
+  }
+
+  .oshi-meta > div {
+    padding: 22px 0;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .oshi-meta > div:last-child {
+    border-bottom: none;
+  }
+
+  .oshi-live {
+    padding: 0 20px 80px;
+  }
+
+  .oshi-live-link {
+    width: 100%;
+  }
+
+  .oshi-live-image {
+    overflow: visible;
+  }
+
+  .oshi-live-label {
+    position: static;
+
+    display: inline-flex;
+    align-items: center;
+
+    width: auto;
+    margin-top: 16px;
+    padding: 14px 20px;
+
+    font-size: 11px;
+    letter-spacing: 0.1em;
+  }
+
+  .oshi-live-note {
+    margin-top: 20px;
+    font-size: 13px;
+    line-height: 1.7;
+  }
+}
+.oshi-mobile-br {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .oshi-mobile-br {
+    display: initial;
+  }
+
+  .oshi-web-title {
+    margin-left: 0;
+  }
+}
+.oshi-title-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .oshi-title-desktop {
+    display: none;
+  }
+
+  .oshi-title-mobile {
+    display: block;
+  }
+
+  .oshi-hero h1 {
+    font-size: 46px;
+    line-height: 1.2;
+    letter-spacing: -0.04em;
+  }
+}
+.oshi-system-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .oshi-system-desktop {
+    display: none;
+  }
+
+  .oshi-system-mobile {
+    display: block;
+  }
+
+  .oshi-system-title {
+    font-size: 34px !important;
+    line-height: 1.35 !important;
+    letter-spacing: -0.04em;
+  }
+}
+.oshi-system-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .oshi-system-desktop {
+    display: none;
+  }
+
+  .oshi-system-mobile {
+    display: block;
+  }
+
+  .oshi-system-title {
+    font-size: 38px !important;
+    line-height: 1.3 !important;
+    letter-spacing: -0.04em;
+  }
+}
+.oshi-role-title-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .oshi-role-title-desktop {
+    display: none;
+  }
+
+  .oshi-role-title-mobile {
+    display: block;
+  }
+
+  .oshi-role-title {
+    font-size: 38px !important;
+    line-height: 1.3 !important;
+    letter-spacing: -0.04em;
+  }
+}
+@media (max-width: 768px) {
+  .oshi-result-title {
+    font-size: 34px;
+    line-height: 1.35;
+    letter-spacing: -0.04em;
+  }
+}

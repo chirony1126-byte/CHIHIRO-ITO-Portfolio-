@@ -1,0 +1,585 @@
+/* =========================
+   RETRY CASE STUDY
+========================= */
+
+.retry-case-study {
+  background: #f7f7f5;
+  color: #111;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.retry-hero {
+  padding: 80px 5% 120px;
+}
+
+.retry-back {
+  display: inline-block;
+  margin-bottom: 120px;
+  color: #111;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.retry-back:hover {
+  opacity: 0.5;
+}
+
+.retry-eyebrow {
+  margin-bottom: 32px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: #777;
+}
+
+.retry-hero h1 {
+  margin: 0;
+  font-size: clamp(72px, 10vw, 150px);
+  line-height: 0.92;
+  letter-spacing: -0.06em;
+}
+
+.retry-lead {
+  margin: 64px 0 80px;
+  max-width: 760px;
+  font-size: 20px;
+  line-height: 1.8;
+  color: #555;
+}
+
+.retry-meta {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.retry-meta > div {
+  padding: 32px 0;
+}
+
+.retry-meta span {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: #888;
+}
+
+.retry-meta strong {
+  font-size: 15px;
+}
+
+
+/* =========================
+   PREVIEW
+========================= */
+
+.retry-preview-section {
+  padding: 0 5% 120px;
+  text-align: center;
+}
+
+.retry-preview {
+  width: min(100%, 520px);
+  margin: 0 auto;
+}
+
+.retry-preview img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.retry-preview-note {
+  margin: 28px auto 0;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #777;
+}
+
+
+/* =========================
+   GENERAL SECTION
+========================= */
+
+.retry-section {
+  padding: 120px 5%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 80px;
+  border-top: 1px solid #ccc;
+}
+
+.retry-section-label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: #777;
+}
+
+.retry-section-content h2 {
+  margin: 0 0 48px;
+  font-size: clamp(42px, 5vw, 76px);
+  line-height: 1.15;
+  letter-spacing: -0.05em;
+}
+
+.retry-section-content > p {
+  max-width: 780px;
+  font-size: 17px;
+  line-height: 2;
+  color: #555;
+}
+
+
+/* =========================
+   DEVELOPMENT FLOW
+========================= */
+
+.retry-flow {
+  margin-top: 72px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+}
+
+.retry-flow-item {
+  padding: 32px 24px;
+  border-right: 1px solid #aaa;
+}
+
+.retry-flow-item:last-child {
+  border-right: none;
+}
+
+.retry-flow-item span {
+  display: block;
+  margin-bottom: 32px;
+  font-size: 12px;
+  color: #888;
+}
+
+.retry-flow-item strong {
+  display: block;
+  margin-bottom: 16px;
+  font-size: 17px;
+}
+
+.retry-flow-item p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.8;
+  color: #777;
+}
+
+
+/* =========================
+   TECHNICAL HIGHLIGHTS
+========================= */
+
+.retry-technical {
+  padding: 120px 5%;
+  border-top: 1px solid #ccc;
+}
+
+.retry-technical > h2 {
+  max-width: 1000px;
+  margin: 80px 0;
+  font-size: clamp(42px, 5vw, 76px);
+  line-height: 1.15;
+  letter-spacing: -0.05em;
+}
+
+.retry-tech-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-top: 1px solid #aaa;
+  border-left: 1px solid #aaa;
+}
+
+.retry-tech-card {
+  min-height: 300px;
+  padding: 40px;
+  border-right: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+}
+
+.retry-tech-card > span {
+  display: block;
+  margin-bottom: 64px;
+  font-size: 12px;
+  color: #888;
+}
+
+.retry-tech-card h3 {
+  margin: 0 0 20px;
+  font-size: 26px;
+  line-height: 1.4;
+}
+
+.retry-tech-card p {
+  max-width: 520px;
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.9;
+  color: #666;
+}
+/* =========================
+   04 ROLE & AI
+========================= */
+
+.retry-role-section {
+  padding: 120px 5%;
+  background: #111;
+  color: #fff;
+}
+
+.retry-role-label span {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: #888;
+}
+
+.retry-role-heading {
+  margin: 80px 0 100px;
+}
+
+.retry-role-heading h2 {
+  margin: 0;
+  font-size: clamp(48px, 6vw, 88px);
+  line-height: 1.12;
+  letter-spacing: -0.05em;
+}
+
+.retry-role-title-mobile {
+  display: none;
+}
+
+.retry-role-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 80px;
+  border-top: 1px solid #444;
+}
+
+.retry-role-item {
+  padding-top: 48px;
+}
+
+.retry-role-item-label {
+  margin: 0 0 24px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: #777;
+}
+
+.retry-role-item h3 {
+  margin: 0 0 32px;
+  font-size: 28px;
+}
+
+.retry-role-item > p:not(.retry-role-item-label) {
+  max-width: 620px;
+  font-size: 16px;
+  line-height: 2;
+  color: #aaa;
+}
+
+
+/* =========================
+   05 RESULT
+========================= */
+
+.retry-result-section {
+  padding: 120px 5% 80px;
+  border-top: 1px solid #ccc;
+}
+
+.retry-result-label span {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: #777;
+}
+
+.retry-result-content {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 100px;
+  align-items: start;
+}
+
+.retry-result-title {
+  margin: 0;
+  font-size: clamp(42px, 4vw, 64px);
+  line-height: 1.2;
+  letter-spacing: -0.05em;
+}
+
+.retry-result-title-mobile {
+  display: none;
+}
+
+.retry-result-text {
+  padding-top: 10px;
+}
+
+.retry-result-text p {
+  margin: 0 0 28px;
+  font-size: 16px;
+  line-height: 2;
+  color: #555;
+}
+
+.retry-result-footer {
+  margin-top: 120px;
+  padding-top: 32px;
+  border-top: 1px solid #ccc;
+}
+
+.retry-back-link {
+  color: #111;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.retry-back-link:hover {
+  opacity: 0.5;
+}
+
+
+/* =========================
+   04 / 05 MOBILE
+========================= */
+
+@media (max-width: 768px) {
+  .retry-role-section {
+    padding: 80px 20px;
+  }
+
+  .retry-role-heading {
+    margin: 48px 0 64px;
+  }
+
+  .retry-role-title-desktop {
+    display: none;
+  }
+
+  .retry-role-title-mobile {
+    display: block;
+  }
+
+  .retry-role-heading h2 {
+    font-size: 38px;
+    line-height: 1.3;
+    letter-spacing: -0.04em;
+  }
+
+  .retry-role-grid {
+    grid-template-columns: 1fr;
+    gap: 56px;
+  }
+
+  .retry-role-item {
+    padding-top: 32px;
+  }
+
+  .retry-role-item h3 {
+    margin-bottom: 24px;
+    font-size: 24px;
+  }
+
+  .retry-role-item > p:not(.retry-role-item-label) {
+    font-size: 15px;
+    line-height: 1.9;
+  }
+
+
+  /* RESULT */
+
+  .retry-result-section {
+    padding: 80px 20px 48px;
+  }
+
+  .retry-result-content {
+    margin-top: 48px;
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .retry-result-title-desktop {
+    display: none;
+  }
+
+  .retry-result-title-mobile {
+    display: block;
+  }
+
+  .retry-result-title {
+    font-size: 34px;
+    line-height: 1.35;
+    letter-spacing: -0.04em;
+  }
+
+  .retry-result-text {
+    padding-top: 0;
+  }
+
+  .retry-result-text p {
+    font-size: 15px;
+    line-height: 1.9;
+  }
+
+  .retry-result-footer {
+    margin-top: 72px;
+  }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+  .retry-hero {
+    padding: 48px 20px 80px;
+  }
+
+  .retry-back {
+    margin-bottom: 80px;
+  }
+
+  .retry-hero h1 {
+    font-size: 64px;
+    line-height: 0.95;
+  }
+
+  .retry-lead {
+    margin: 48px 0 56px;
+    font-size: 16px;
+  }
+
+  .retry-lead br {
+    display: none;
+  }
+
+  .retry-meta {
+    grid-template-columns: 1fr;
+  }
+
+  .retry-meta > div {
+    padding: 24px 0;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .retry-meta > div:last-child {
+    border-bottom: none;
+  }
+
+
+  /* PREVIEW */
+
+  .retry-preview-section {
+    padding: 0 20px 80px;
+  }
+
+  .retry-preview {
+    width: 100%;
+    max-width: 380px;
+  }
+
+  .retry-preview-note {
+    font-size: 13px;
+  }
+
+
+  /* SECTIONS */
+
+  .retry-section {
+    padding: 80px 20px;
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .retry-section-content h2 {
+    margin-bottom: 32px;
+    font-size: 38px;
+    line-height: 1.3;
+  }
+
+  .retry-section-content > p {
+    font-size: 15px;
+    line-height: 1.9;
+  }
+
+
+  /* DEVELOPMENT */
+
+  .retry-flow {
+    margin-top: 48px;
+    grid-template-columns: 1fr;
+  }
+
+  .retry-flow-item {
+    padding: 28px 0;
+    border-right: none;
+    border-bottom: 1px solid #aaa;
+  }
+
+  .retry-flow-item:last-child {
+    border-bottom: none;
+  }
+
+  .retry-flow-item span {
+    margin-bottom: 16px;
+  }
+
+
+  /* TECHNICAL */
+
+  .retry-technical {
+    padding: 80px 20px;
+  }
+
+  .retry-technical > h2 {
+    margin: 48px 0;
+    font-size: 38px;
+    line-height: 1.3;
+  }
+
+  .retry-tech-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .retry-tech-card {
+    min-height: 0;
+    padding: 32px 24px;
+  }
+
+  .retry-tech-card > span {
+    margin-bottom: 36px;
+  }
+
+  .retry-tech-card h3 {
+    font-size: 23px;
+  }
+
+  .retry-tech-card p {
+    font-size: 14px;
+  }
+}
